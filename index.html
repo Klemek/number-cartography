@@ -7,7 +7,7 @@
 	<style>
 	* {
 		box-sizing: border-box;
-		font-family: Verdana, serif;
+		font-family: Courier New, serif;
 	}
 	body,
 	html {
@@ -54,11 +54,12 @@
 			<canvas id="canvas"></canvas><br>
 			<input id="input" value="3.1415926535"><br>
 			<div class="wrapper">
-				<button onclick="input.value=PI.substr(0,12);draw()">π (10)</button>
-				<button onclick="input.value=PI.substr(0,102);draw()">π (100)</button>
-				<button onclick="input.value=PI.substr(0,1002);draw()">π (1k)</button>
-				<button onclick="input.value=PI.substr(0,10002);draw()">π (10k)</button>
-				<button onclick="input.value=PI;draw()">π (100k)</button>
+				<button onclick="input.value='334212336364100110012100110011';draw()">house</button>
+				<button onclick="input.value=PI.substr(0,12);draw()">π10</button>
+				<button onclick="input.value=PI.substr(0,102);draw()">π100</button>
+				<button onclick="input.value=PI.substr(0,1002);draw()">π1k</button>
+				<button onclick="input.value=PI.substr(0,10002);draw()">π10k</button>
+				<button onclick="input.value=PI;draw()">π100k</button>
 				<button id="play">Play</button>
 			</div>
 		</div>
